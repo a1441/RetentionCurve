@@ -29,15 +29,16 @@ Follow the on-screen prompts to input days and retention data.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Example usage:
-if __name__ == "__main__":
-    actual_data, forecast_data = run_retention_forecast()
-    plot_forecast(actual_data, forecast_data)
-    score = score_points(actual_data, forecast_data)
-    print("Mean Absolute Difference:", score)
+if __name__ == "__main__":  
+    actual_data, forecast_data = run_retention_forecast()  
+    plot_forecast(actual_data, forecast_data)  
+    score = score_points(actual_data, forecast_data)  
+    print("Mean Absolute Difference:", score)  
 
-Please enter the days data (separated by commas): -> 1,3,7,30
-Please enter the retention data (separated by commas): -> 35.25%,12.45%,6%,1.5%
+Please enter the days data (separated by commas): -> 1,3,7,30  
 
-## Sample output:
+Please enter the retention data (separated by commas): -> 35.25%,12.45%,6%,1.5%  
+
+## Sample output:  
 
 ![image](https://github.com/a1441/RetentionCurve/assets/49153959/114fee91-5b71-4b12-be87-6c07948e219a)
